@@ -39,7 +39,6 @@ public class BeerRepositoryImpl implements BeerRepositoryList, BeerRepositoryMap
 
     @Override
     public Beer updateBeer(Long id, Beer beer) {
-        // Implementación específica para actualizar Beer
         beerMap.put(id, beer);
         return beer;
     }

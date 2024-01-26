@@ -5,7 +5,7 @@ import com.crudsprint.sprint1.Users.model.User;
 import java.util.HashMap;
 
 public interface UserServiceHashMap {
-    HashMap<Integer, User> findAllUser();
+    HashMap<Integer, User> findAllUserMap();
     User findUserById(Integer idUser);
     User createUser(User user);
     User updateUser(Integer id, User user);

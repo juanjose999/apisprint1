@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public interface UserRepositoryList {
-    ArrayList<User> findAllUser();
+    ArrayList<User> findAllUserList();
     User findUserById(Integer idUser);
     User createUser(User user);
     User updateUser(Integer id, User user);

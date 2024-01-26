@@ -5,7 +5,7 @@ import com.crudsprint.sprint1.Users.model.User;
 import java.util.ArrayList;
 
 public interface UserServiceList {
-    ArrayList<User> findAllUser();
+    ArrayList<User> findAllUserList();
     User findUserById(Integer idUser);
     User createUser(User user);
     User updateUser(Integer id, User user);
