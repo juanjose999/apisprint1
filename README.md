@@ -1,1 +1,2 @@
-DIAGRAMA.png
+![ver diagrama en](DIAGRAMA.png)
+
